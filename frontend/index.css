@@ -1,0 +1,8 @@
+/* @import url("bootstrap/dist/css/bootstrap.css"); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background-color: #111827;
+}

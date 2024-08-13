@@ -1,0 +1,38 @@
+/* Add this CSS file to style the background and buttons */
+
+body {
+    background-color: #eef1f5;
+  }
+  
+  .app-container {
+    background-color: #442c03;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(248, 238, 238, 0.1);
+    padding: 20px;
+  }
+  
+  .nav-link {
+    color: #007bff !important;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3 !important;
+  }
+  
+  button, .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button:active, .btn:active {
+    background-color: #004494;
+  }
+  
